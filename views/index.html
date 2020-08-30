@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Elliot</title>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <a onclick="loadTemplate('http')">HTTP</a>
+    </div>
+    <div class="main">
+      <div class="client">
+        <div class="text">
+          <textarea id="input"></textarea>
+        </div>
+      </div>
+      <div class="server">
+        <div class="text">
+          <textarea id="output" readonly></textarea>
+        </div>
+      </div>
+      <div class="bottomBar">
+        <a onclick="send()" class="button right">
+          run
+        </a>
+        <input type="text" id="ip" value="" placeholder="IP">
+        <input type="text" id="port" value="" placeholder="Port">
+        <select id="protocol">
+          <option value="UDP">UDP</option>
+          <option value="TCP">TCP</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>

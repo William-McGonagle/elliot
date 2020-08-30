@@ -1,0 +1,131 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0px;
+  width: 300px;
+  top: 0px;
+  bottom: 0px;
+  background: #4F5D75;
+}
+.sidebar a {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 25px;
+  color: white;
+  border-bottom: 1px solid #fff;
+}
+.sidebar a:hover {
+  background: #455166;
+  cursor: pointer;
+}
+.sidebar a:active {
+  background: #3a4557;
+}
+
+.main {
+  position: fixed;
+  left: 300px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #FFFFFF;
+}
+.main .client {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50%;
+  border-bottom: 1px solid #4F5D75;
+}
+.main .client .text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+.main .client .text textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: 1px solid #4F5D75;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 18px;
+}
+.main .server {
+  position: absolute;
+  bottom: 70px;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid #4F5D75;
+}
+.main .server .text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+.main .server .text textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  border: 1px solid #4F5D75;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 18px;
+}
+.main .bottomBar {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+}
+.main .bottomBar .button {
+  position: relative;
+  height: 100%;
+  background: #EF8354;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 40px;
+  color: #fff;
+  border: none;
+  transition: background 0.2s;
+}
+.main .bottomBar .button:hover {
+  background: #eb6125;
+  cursor: pointer;
+}
+.main .bottomBar select, .main .bottomBar input {
+  position: relative;
+  height: 100%;
+  background: #2D3142;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 20px 40px;
+  color: #fff;
+  border: none;
+  transition: background 0.2s;
+}
+.main .bottomBar select:hover, .main .bottomBar input:hover {
+  background: #181a24;
+  cursor: pointer;
+}
+.main .bottomBar input {
+  padding: 20px 10px;
+}
+.main .bottomBar .right {
+  position: absolute;
+  right: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

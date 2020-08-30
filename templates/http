@@ -1,0 +1,6 @@
+{
+  "body": "GET / HTTP/1.1\nHost: www.placeholder.com\n\n.\n\n",
+  "port": 80,
+  "protocol": "TCP",
+  "ip": "www.placeholder.com"
+}
